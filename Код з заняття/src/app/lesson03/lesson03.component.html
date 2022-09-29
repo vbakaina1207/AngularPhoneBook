@@ -1,0 +1,36 @@
+<!-- Parent => Child => Input -->
+<!-- Parent <= Child => Output + Event Emmiter -->
+<!-- Parent => Child => View Child -->
+<!-- Component => Component2 => Service -->
+
+<!-- <p>lesson03 works!</p>
+<app-child>
+    <h1>Parent Tag</h1>
+</app-child> -->
+
+
+<!-- <p>lesson03 works!</p>
+<app-child [userName]="'Ivan'"></app-child> -->
+
+<!-- <p>lesson03 works!</p>
+<app-child [userName]="myName"></app-child> -->
+
+
+<!-- <p>lesson03 works!</p>
+<input type="text" [(ngModel)]="myName">
+<app-child [userName]="myName" [userAge]="30"></app-child> -->
+
+<!-- <p>lesson03 works!</p>
+<h1>Message: {{ message }}</h1>
+<app-child (fromChild)="getMessage($event)"></app-child> -->
+
+<!-- <p>lesson03 works!</p>
+<h1>Count = {{ count }}</h1>
+<app-child (changeCount)="checkStatus($event)"></app-child> -->
+
+<!-- <p>lesson03 works!</p>
+<input type="text" [(ngModel)]="myName">
+<app-child></app-child> -->
+
+<p>lesson03 works!</p>
+<app-child-extra></app-child-extra>
